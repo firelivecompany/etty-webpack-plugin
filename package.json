@@ -1,0 +1,30 @@
+{
+  "name": "etty-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Etty translations autocompile plugin for webpack 4+",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firelivecompany/etty-webpack-plugin.git"
+  },
+  "keywords": [
+    "etty",
+    "webpack",
+    "plugin",
+    "i18n"
+  ],
+  "author": "Limbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firelivecompany/etty-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/firelivecompany/etty-webpack-plugin#readme",
+  "devDependencies": {
+    "@types/webpack": "^4.4.24",
+    "typescript": "^3.3.3"
+  }
+}

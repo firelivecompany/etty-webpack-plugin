@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"watch": true,
+		"target": "es5",
+		"outDir": "./dist",
+		"module": "commonjs",
+		"declaration": true,
+		"strict": false,
+		"noImplicitAny": true,
+		"experimentalDecorators": true,
+		"lib": ["es6"]
+	}
+}
