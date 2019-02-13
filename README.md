@@ -25,7 +25,7 @@ Name | Type | Required | Default | Description
 `locales` | `string` | yes | - | A path to the JSON that contains locales array (`string[]`) that you are using with `etty`
 `compileTo` | `string` | yes | - | A path to the folder where to place generated translations
 `prefillFrom` | `string` | no | value of `compileTo` | A path to the folder where your existing translation files are placed
-`logLevel` | `"all" | "warning" | "error" | "none"` | no | `"all"` | Log level of the plugin. `"all"` will show `success`, `info`, `warning` and `error` messages; `"warning"` - `warning` and `error` messages; `"error"` only `error` messages; `"none"` will not display any messages.
+`logLevel` | `"all", "warning", "error", "none"` | no | `"all"` | Log level of the plugin. `"all"` will show `success`, `info`, `warning` and `error` messages; `"warning"` - `warning` and `error` messages; `"error"` only `error` messages; `"none"` will not display any messages.
 `minify` | `boolean` | no | `false` | Whether to minify output JSON files or not.
 
 ## Example
