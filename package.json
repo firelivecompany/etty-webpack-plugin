@@ -1,6 +1,6 @@
 {
   "name": "etty-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Etty translations autocompile plugin for webpack 4+",
   "main": "dist/index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "devDependencies": {
     "@types/webpack": "^4.4.24",
     "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "etty-mockup": "^0.1.1"
   }
 }

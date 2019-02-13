@@ -8,6 +8,7 @@
 		"strict": false,
 		"noImplicitAny": true,
 		"experimentalDecorators": true,
-		"lib": ["es6"]
+		"types": [ "node" ],
+		"lib": ["es6"],
 	}
 }
